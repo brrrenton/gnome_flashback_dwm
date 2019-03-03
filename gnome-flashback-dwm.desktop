@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=GNOME Flashback (DWM)
+Comment=This session logs you into GNOME Flashback with DWM
+Exec=/usr/lib/gnome-flashback/gnome-flashback-dwm
+Type=Application
+DesktopNames=GNOME-Flashback;GNOME;
+X-Ubuntu-Gettext-Domain=gnome-flashback

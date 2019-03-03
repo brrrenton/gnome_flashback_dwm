@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=DWM
+Exec=dwm.sh
+NoDisplay=true
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Notify=true
