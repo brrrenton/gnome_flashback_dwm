@@ -4,5 +4,9 @@ if [ -z $XDG_CURRENT_DESKTOP ]; then
   export XDG_CURRENT_DESKTOP="GNOME-Flashback:GNOME"
 fi
 
+# Ubuntu <= 18.04
+#exec gnome-session --session=gnome-flashback-dwm --disable-acceleration-check "$@"
+
+# Ubuntu >= 20.04
 exec gnome-session --builtin --session=gnome-flashback-dwm --disable-acceleration-check "$@"
 
