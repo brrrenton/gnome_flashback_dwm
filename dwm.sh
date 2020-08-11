@@ -6,9 +6,12 @@ fi
 
 xrdb ~/.Xresources
 hsetroot -solid "#444444" &
-status.py &
 wmname LG3D &
+status.py &
+STATUS_PID=$!
 dwm
+
+kill $STATUS_PID
 
 if [ -n "$DESKTOP_AUTOSTART_ID" ]; then
     dbus-send --print-reply --session --dest=org.gnome.SessionManager "/org/gnome/SessionManager" org.gnome.SessionManager.Logout "uint32:1"
