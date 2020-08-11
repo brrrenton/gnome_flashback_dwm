@@ -7,6 +7,7 @@ fi
 xrdb ~/.Xresources
 hsetroot -solid "#444444" &
 status.py &
+wmname LG3D &
 dwm
 
 if [ -n "$DESKTOP_AUTOSTART_ID" ]; then
