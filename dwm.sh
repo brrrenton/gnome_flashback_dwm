@@ -7,7 +7,6 @@ fi
 hsetroot -solid "#444444" &
 xrdb ~/.Xresources &
 numlockx &
-wmname LG3D &
 status.py &
 STATUS_PID=$!
 dwm
