@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo ln -s -f -t /usr/share/xsessions/ ${PWD}/gnome-flashback-dwm.desktop
-sudo ln -s -f -t /usr/lib/gnome-flashback/ ${PWD}/gnome-flashback-dwm
-sudo ln -s -f -t /usr/share/gnome-session/sessions/ ${PWD}/gnome-flashback-dwm.session
-sudo ln -s -f -t /usr/share/applications/ ${PWD}/dwm.desktop
-sudo ln -s -f -t /usr/local/bin/ ${PWD}/dwm.sh
+sudo cp gnome-flashback-dwm.desktop /usr/share/xsessions/
+sudo cp gnome-flashback-dwm /usr/lib/gnome-flashback/
+sudo cp gnome-flashback-dwm.session /usr/share/gnome-session/sessions/
+sudo cp dwm.desktop /usr/share/applications/
+sudo cp dwm.sh /usr/local/bin/
 
